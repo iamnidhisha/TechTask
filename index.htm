@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bundle & Save</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Bundle & Save</h2>
+    <form id="bundle-form">
+      <!-- 1 Pair -->
+      <div class="option active" onclick="selectOption(this)" data-total="195">
+        <input type="radio" name="bundle" checked>
+        <div class="info">
+          <h3>1 Pair</h3>
+          <p>DKK 195.00 <span class="discount">50% OFF</span></p>
+          <div class="selectors">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Pair -->
+      <div class="option" onclick="selectOption(this)" data-total="345">
+        <input type="radio" name="bundle">
+        <div class="info">
+          <h3>2 Pair <span class="tag">Most Popular</span></h3>
+          <p>DKK 345.00 <span class="discount">40% OFF</span></p>
+          <div class="selectors">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Pair -->
+      <div class="option" onclick="selectOption(this)" data-total="360">
+        <input type="radio" name="bundle">
+        <div class="info">
+          <h3>3 Pair</h3>
+          <p>DKK 528.00 <span class="discount">60% OFF</span></p>
+          <div class="selectors">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="shipping">Free 2 Day Shipping</p>
+      <p class="total">Total: DKK <span id="total-price">195.00</span></p>
+      <button type="submit" onclick="submit" class="add-to-cart">+ Add to Cart</button>
+    </form>
+    <p class="powered">© Powered by Sha</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

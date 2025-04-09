@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    background: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /*padding: 40px;*/
+  }
+  
+  .container {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #00795c;
+  }
+  
+  .option {
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .option.active {
+    border-color: #00795c;
+    background: #e9fdf5;
+  }
+  
+  .option input {
+    margin-top: 6px;
+  }
+  
+  .info h3 {
+    margin: 0;
+  }
+  
+  .discount {
+    color: #00795c;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  
+  .tag {
+    background: #00795c;
+    color: white;
+    font-size: 0.7em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .selectors {
+    display: none;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .option.active .selectors {
+    display: flex;
+  }
+  
+  .selectors div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .shipping {
+    color: #00795c;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .total {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #00795c;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .powered {
+    font-size: 0.75em;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+
+  .add-to-cart {
+    width: 342px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
